@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Orbitron&display=swap');
+body {
+    background-color: #000;
+}
+
+main {
+    min-height: 100vh;
+}
+
+.fecha {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+
+.hora {
+    color: white;
+    font-family: 'Londrina Outline', cursive;
+    font-size: 4em;
+}
+
+
+/* Efecto neón */
+
+.verdeN {
+    /* Separo por comas las distintas capas */
+    text-shadow: 0 0 5px #7bffce, 0 0 10px #7bffce, 0 0 15px #7bffce, 0 0 20px #7bffce;
+}
+
+.azulN {
+    /* Separo por comas las distintas capas */
+    text-shadow: 0 0 5px #7bacff, 0 0 10px #7bacff, 0 0 15px #7bacff, 0 0 20px #7bacff;
+}
+
+.rosaN {
+    /* Separo por comas las distintas capas */
+    text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 15px #ff7bac, 0 0 20px #ff7bac;
+}
+
+
+/* Botones */
+
+.boton {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+#verde {
+    background-color: #7bffce;
+}
+
+#azul {
+    background-color: #7bacff;
+}
+
+#rosa {
+    background-color: #ff7bac;
+}
